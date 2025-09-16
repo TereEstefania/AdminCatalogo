@@ -1,0 +1,6 @@
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Dominios\bin\Debug\Dominios.dll
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Dominios\bin\Debug\Dominios.pdb
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Dominios\obj\Debug\Domains.csproj.AssemblyReference.cache
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Dominios\obj\Debug\Domains.csproj.CoreCompileInputs.cache
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Dominios\obj\Debug\Dominios.dll
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Dominios\obj\Debug\Dominios.pdb

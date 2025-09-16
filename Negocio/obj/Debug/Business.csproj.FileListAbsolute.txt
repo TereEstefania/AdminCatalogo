@@ -1,0 +1,11 @@
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\bin\Debug\Negocio.dll
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\bin\Debug\Negocio.pdb
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\bin\Debug\AccesoDatos.dll
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\bin\Debug\Dominios.dll
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\bin\Debug\AccesoDatos.pdb
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\bin\Debug\Dominios.pdb
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\obj\Debug\Business.csproj.Up2Date
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\obj\Debug\Negocio.dll
+C:\Users\TERESA\source\repos\TPFinalNivel2_Fernandez\Negocio\obj\Debug\Negocio.pdb

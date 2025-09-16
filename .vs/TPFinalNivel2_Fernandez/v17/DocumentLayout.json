@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TERESA\\source\\repos\\TPFinalNivel2_Fernandez\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{243F5BD2-1DF4-4661-A19A-970FA0F40319}|Negocio\\Business.csproj|c:\\users\\teresa\\source\\repos\\tpfinalnivel2_fernandez\\negocio\\merchandisebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243F5BD2-1DF4-4661-A19A-970FA0F40319}|Negocio\\Business.csproj|solutionrelative:negocio\\merchandisebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC06EB22-84FB-460E-A08B-EDB0A5EE4ED9}|Tp-Integrador-N2\\Tp-Integrador-N2.csproj|C:\\Users\\TERESA\\source\\repos\\TPFinalNivel2_Fernandez\\tp-integrador-n2\\fmrmerchandise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC06EB22-84FB-460E-A08B-EDB0A5EE4ED9}|Tp-Integrador-N2\\Tp-Integrador-N2.csproj|solutionrelative:tp-integrador-n2\\fmrmerchandise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC06EB22-84FB-460E-A08B-EDB0A5EE4ED9}|Tp-Integrador-N2\\Tp-Integrador-N2.csproj|C:\\Users\\TERESA\\source\\repos\\TPFinalNivel2_Fernandez\\tp-integrador-n2\\formcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC06EB22-84FB-460E-A08B-EDB0A5EE4ED9}|Tp-Integrador-N2\\Tp-Integrador-N2.csproj|solutionrelative:tp-integrador-n2\\formcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\TERESA\\source\\repos\\TPFinalNivel2_Fernandez\\Tp-Integrador-N2\\FormCatalog.cs",
+              "RelativeDocumentMoniker": "Tp-Integrador-N2\\FormCatalog.cs",
+              "ToolTip": "C:\\Users\\TERESA\\source\\repos\\TPFinalNivel2_Fernandez\\Tp-Integrador-N2\\FormCatalog.cs",
+              "RelativeToolTip": "Tp-Integrador-N2\\FormCatalog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:45:30.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FmrMerchandise.cs",
+              "DocumentMoniker": "C:\\Users\\TERESA\\source\\repos\\TPFinalNivel2_Fernandez\\Tp-Integrador-N2\\FmrMerchandise.cs",
+              "RelativeDocumentMoniker": "Tp-Integrador-N2\\FmrMerchandise.cs",
+              "ToolTip": "C:\\Users\\TERESA\\source\\repos\\TPFinalNivel2_Fernandez\\Tp-Integrador-N2\\FmrMerchandise.cs",
+              "RelativeToolTip": "Tp-Integrador-N2\\FmrMerchandise.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T02:57:46.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MerchandiseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\TERESA\\source\\repos\\TPFinalNivel2_Fernandez\\Negocio\\MerchandiseBusiness.cs",
+              "RelativeDocumentMoniker": "Negocio\\MerchandiseBusiness.cs",
+              "ToolTip": "C:\\Users\\TERESA\\source\\repos\\TPFinalNivel2_Fernandez\\Negocio\\MerchandiseBusiness.cs",
+              "RelativeToolTip": "Negocio\\MerchandiseBusiness.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwJcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T23:51:21.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
