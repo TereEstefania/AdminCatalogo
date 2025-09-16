@@ -1,0 +1,28 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/TPFinalNivel2_Fernandez.sln
+# Archivos de usuario
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+Debug/
+Release/
+
+# Paquetes de NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# Configuración de VS
+.vs/
+
+# Archivos temporales
+*.log
+*.tmp
