@@ -45,6 +45,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
+            this.lblFilterTitle = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DgvCatalog)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxImage)).BeginInit();
             this.SuspendLayout();
@@ -83,10 +84,10 @@
             // pbxImage
             // 
             this.pbxImage.BackColor = System.Drawing.SystemColors.Info;
-            this.pbxImage.Location = new System.Drawing.Point(770, 59);
+            this.pbxImage.Location = new System.Drawing.Point(777, 59);
             this.pbxImage.Name = "pbxImage";
-            this.pbxImage.Size = new System.Drawing.Size(314, 419);
-            this.pbxImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxImage.Size = new System.Drawing.Size(331, 438);
+            this.pbxImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbxImage.TabIndex = 1;
             this.pbxImage.TabStop = false;
             // 
@@ -103,7 +104,7 @@
             // btnCreate
             // 
             this.btnCreate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCreate.Location = new System.Drawing.Point(22, 495);
+            this.btnCreate.Location = new System.Drawing.Point(22, 474);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(75, 23);
             this.btnCreate.TabIndex = 3;
@@ -114,7 +115,7 @@
             // btnUpdate
             // 
             this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUpdate.Location = new System.Drawing.Point(122, 495);
+            this.btnUpdate.Location = new System.Drawing.Point(149, 474);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 4;
@@ -125,7 +126,7 @@
             // btnDelete
             // 
             this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDelete.Location = new System.Drawing.Point(226, 495);
+            this.btnDelete.Location = new System.Drawing.Point(274, 474);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 5;
@@ -138,7 +139,7 @@
             this.cboCategories.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCategories.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboCategories.FormattingEnabled = true;
-            this.cboCategories.Location = new System.Drawing.Point(82, 427);
+            this.cboCategories.Location = new System.Drawing.Point(84, 428);
             this.cboCategories.Name = "cboCategories";
             this.cboCategories.Size = new System.Drawing.Size(140, 21);
             this.cboCategories.TabIndex = 6;
@@ -147,7 +148,7 @@
             // 
             this.lblCategories.AutoSize = true;
             this.lblCategories.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategories.Location = new System.Drawing.Point(19, 430);
+            this.lblCategories.Location = new System.Drawing.Point(21, 431);
             this.lblCategories.Name = "lblCategories";
             this.lblCategories.Size = new System.Drawing.Size(57, 13);
             this.lblCategories.TabIndex = 7;
@@ -157,7 +158,7 @@
             // 
             this.lblBrands.AutoSize = true;
             this.lblBrands.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBrands.Location = new System.Drawing.Point(245, 430);
+            this.lblBrands.Location = new System.Drawing.Point(247, 431);
             this.lblBrands.Name = "lblBrands";
             this.lblBrands.Size = new System.Drawing.Size(42, 13);
             this.lblBrands.TabIndex = 8;
@@ -168,7 +169,7 @@
             this.cboBrands.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBrands.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboBrands.FormattingEnabled = true;
-            this.cboBrands.Location = new System.Drawing.Point(293, 427);
+            this.cboBrands.Location = new System.Drawing.Point(295, 428);
             this.cboBrands.Name = "cboBrands";
             this.cboBrands.Size = new System.Drawing.Size(140, 21);
             this.cboBrands.TabIndex = 9;
@@ -176,7 +177,7 @@
             // txtNameFilter
             // 
             this.txtNameFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNameFilter.Location = new System.Drawing.Point(505, 428);
+            this.txtNameFilter.Location = new System.Drawing.Point(507, 429);
             this.txtNameFilter.Name = "txtNameFilter";
             this.txtNameFilter.Size = new System.Drawing.Size(140, 20);
             this.txtNameFilter.TabIndex = 12;
@@ -185,7 +186,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(455, 433);
+            this.label1.Location = new System.Drawing.Point(457, 434);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 11;
@@ -196,7 +197,7 @@
             this.btnSearch.BackColor = System.Drawing.SystemColors.Control;
             this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(674, 427);
+            this.btnSearch.Location = new System.Drawing.Point(676, 428);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 10;
@@ -214,12 +215,23 @@
             this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
+            // lblFilterTitle
+            // 
+            this.lblFilterTitle.AutoSize = true;
+            this.lblFilterTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFilterTitle.Location = new System.Drawing.Point(21, 402);
+            this.lblFilterTitle.Name = "lblFilterTitle";
+            this.lblFilterTitle.Size = new System.Drawing.Size(41, 13);
+            this.lblFilterTitle.TabIndex = 13;
+            this.lblFilterTitle.Text = "Filtros";
+            // 
             // FormCatalog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1106, 536);
+            this.ClientSize = new System.Drawing.Size(1140, 519);
+            this.Controls.Add(this.lblFilterTitle);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNameFilter);
@@ -265,6 +277,7 @@
         private System.Windows.Forms.TextBox txtNameFilter;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.Label lblFilterTitle;
     }
 }
 

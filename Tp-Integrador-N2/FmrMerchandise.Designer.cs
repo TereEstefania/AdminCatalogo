@@ -40,7 +40,6 @@
             this.cboBrands = new System.Windows.Forms.ComboBox();
             this.btnAccept = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.btnAddImage = new System.Windows.Forms.Button();
             this.txtPrice = new System.Windows.Forms.TextBox();
             this.txtImage = new System.Windows.Forms.TextBox();
             this.txtDescription = new System.Windows.Forms.TextBox();
@@ -81,7 +80,7 @@
             // lblBrand
             // 
             this.lblBrand.AutoSize = true;
-            this.lblBrand.Location = new System.Drawing.Point(50, 247);
+            this.lblBrand.Location = new System.Drawing.Point(49, 238);
             this.lblBrand.Name = "lblBrand";
             this.lblBrand.Size = new System.Drawing.Size(37, 13);
             this.lblBrand.TabIndex = 9;
@@ -90,7 +89,7 @@
             // lblCategory
             // 
             this.lblCategory.AutoSize = true;
-            this.lblCategory.Location = new System.Drawing.Point(33, 287);
+            this.lblCategory.Location = new System.Drawing.Point(32, 283);
             this.lblCategory.Name = "lblCategory";
             this.lblCategory.Size = new System.Drawing.Size(54, 13);
             this.lblCategory.TabIndex = 11;
@@ -117,7 +116,7 @@
             // cboCategory
             // 
             this.cboCategory.FormattingEnabled = true;
-            this.cboCategory.Location = new System.Drawing.Point(103, 279);
+            this.cboCategory.Location = new System.Drawing.Point(102, 275);
             this.cboCategory.Name = "cboCategory";
             this.cboCategory.Size = new System.Drawing.Size(150, 21);
             this.cboCategory.TabIndex = 12;
@@ -125,7 +124,7 @@
             // cboBrands
             // 
             this.cboBrands.FormattingEnabled = true;
-            this.cboBrands.Location = new System.Drawing.Point(103, 239);
+            this.cboBrands.Location = new System.Drawing.Point(102, 230);
             this.cboBrands.Name = "cboBrands";
             this.cboBrands.Size = new System.Drawing.Size(150, 21);
             this.cboBrands.TabIndex = 10;
@@ -149,20 +148,6 @@
             this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // btnAddImage
-            // 
-            this.btnAddImage.BackColor = System.Drawing.SystemColors.Control;
-            this.btnAddImage.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddImage.Location = new System.Drawing.Point(212, 206);
-            this.btnAddImage.Margin = new System.Windows.Forms.Padding(0);
-            this.btnAddImage.Name = "btnAddImage";
-            this.btnAddImage.Size = new System.Drawing.Size(41, 23);
-            this.btnAddImage.TabIndex = 8;
-            this.btnAddImage.Text = "Add";
-            this.btnAddImage.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnAddImage.UseVisualStyleBackColor = false;
-            this.btnAddImage.Click += new System.EventHandler(this.button3_Click);
             // 
             // txtPrice
             // 
@@ -231,7 +216,6 @@
             this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.txtImage);
             this.Controls.Add(this.txtPrice);
-            this.Controls.Add(this.btnAddImage);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAccept);
             this.Controls.Add(this.cboBrands);
@@ -266,7 +250,6 @@
         private System.Windows.Forms.ComboBox cboBrands;
         private System.Windows.Forms.Button btnAccept;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnAddImage;
         private System.Windows.Forms.TextBox txtPrice;
         private System.Windows.Forms.TextBox txtImage;
         private System.Windows.Forms.TextBox txtDescription;
